@@ -73,7 +73,7 @@ lter_sites = st_sf(
   site = sapply(1:6, function(x){paste("LTER", x)})
 )
 
-st_write(lter_sites, "Shapefiles/LTER_Site_Outlines.shp")
+st_write(lter_sites, "Data/Shapefiles/LTER_Site_Outlines.shp")
 
 # Plotting
 #
